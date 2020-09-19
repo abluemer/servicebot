@@ -1,0 +1,40 @@
+mat-card {
+  background-color: #455662;
+  color: white;
+  width: 50%;
+  text-align:center
+}
+
+input {
+  color: white;
+  position: relative;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: white !important;
+ }
+
+ ::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: white !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+ /*change color of underline when focused*/
+ background-color: white !important;;
+}
+
+button {
+  color: #e8e8e8;
+  background-color: #4a7491;
+  margin-top: 1.5rem;
+  border-style: none;
+  font-size: larger;
+  font-weight: 400;
+  border-radius: 0rem;
+  margin-left: 8rem;
+  min-width: 10rem;
+  height: 2rem;
+  box-shadow: 1px 4px 5px 1px rgba(14, 15, 31, 0.5);
+}

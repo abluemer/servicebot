@@ -1,0 +1,37 @@
+* {
+  color: white;
+}
+mat-expansion-panel {
+  background-color: #455662 !important;
+  color: white
+}
+mat-expansion-panel-header {
+  background-color: #455662 !important;
+  color: white;
+}
+mat-paginator {
+  background-color: #455662 !important;
+  color: white;
+}
+::ng-deep .mat-select-value {
+  color: white;
+
+}
+
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.car-image {
+  width: 100%;
+}
+
+.car-image img {
+  width: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}

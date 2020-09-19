@@ -1,0 +1,71 @@
+mat-toolbar {
+  background-color: #22314f;
+  box-shadow: 1px 4px 5px 1px rgba(14, 15, 31, 0.5);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+#logo {
+  height: 4.5rem;
+}
+
+/* Positionierung vom Dropdown Content */
+.dropdown {
+  margin-top: 1rem;
+  color: orange;
+  position: relative;
+}
+
+/* Inhalt vom Dropdown */
+.dropdown-content {
+  position: relative;
+  z-index: 2;
+  display: none;
+  background-color: #22314f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 9rem;
+}
+
+/* Einzelne Buttons im Dropdown */
+.dropdown-content a {
+  color: #e8e8e8;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* On Hover Farbe der Buttons ändern */
+.dropdown-content a:hover {
+  background-color: #6087a1;
+}
+
+/* Dropdown bei Hover anzeigen */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown Farbe (nach click) ändern */
+.dropdown:hover .dropbtn {
+  color: green;
+}
+.test:after {
+  content: "\2807";
+  font-size: 70px;
+}
+
+
